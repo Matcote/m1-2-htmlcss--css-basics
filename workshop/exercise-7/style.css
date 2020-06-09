@@ -16,4 +16,34 @@ li {
   vertical-align: baseline;
 }
 
-/* ADD CSS BELOW */
+body{
+  font-family: 'bangers';
+  margin: 15px;
+}
+h1{
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+h2{
+  font-size: x-large;
+}
+h3{
+  font-size: large;
+  text-align: center;
+}
+.row{
+  list-style: none;
+  display: flex;
+}
+.box{
+  padding: 15px;
+  background-color: lightgray;
+  border: 2px dashed;
+  margin: 10px;
+
+}
+img{
+  border-radius: 4px;
+  height: 100px;
+}

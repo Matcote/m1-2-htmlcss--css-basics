@@ -19,23 +19,41 @@ li {
 /* ADD CSS BELOW */
 
 body {
+  margin: 20px;
 }
 
 h1,
 h2 {
+  text-align: center;
+  font-family: 'bangers';
 }
 
 h1 {
+  font-size: xx-large;
+  margin-bottom: 20px;
 }
 
 h2 {
+  font-size: large;
+  margin-bottom: 15px;
 }
 
 .row {
+  list-style: none;
+  display: flex;
+  flex: 0 auto;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .col {
+  padding: 15px;
+  background-color: lightgray;
+  border: 2px dashed;
 }
 
 .image {
+  height: 200px;
+  
+  
 }
